@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+oliverj-utils/__init__.py
+oliverj_utils.egg-info/PKG-INFO
+oliverj_utils.egg-info/SOURCES.txt
+oliverj_utils.egg-info/dependency_links.txt
+oliverj_utils.egg-info/top_level.txt
