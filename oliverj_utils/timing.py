@@ -40,7 +40,7 @@ class Node:
 
 
 class Timing():
-    def __init__(self, tree: Tree):
+    def __init__(self, tree: Tree = Tree()):
         self.tree = tree
         self.tree.stack_add(Node())
 

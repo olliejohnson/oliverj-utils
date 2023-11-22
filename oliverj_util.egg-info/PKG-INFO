@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: oliverj-utils
-Version: 0.0.1
+Name: oliverj-util
+Version: 0.0.4
 Summary: A utility package
-Home-page: https://pypi.org/project/oliverj-utils
+Home-page: https://pypi.org/project/oliverj-util
 Author: Olliejohnson
 Author-email: contact@oliverj.io
 License: MIT
