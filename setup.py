@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="oliverj-util",
-    version="0.0.4",
+    version="0.0.6",
     author="Olliejohnson",
     author_email="contact@oliverj.io",
     packages=["oliverj_utils"],

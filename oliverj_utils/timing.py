@@ -52,10 +52,15 @@ class Timing():
             node.add_parent(self.tree.stack[-1])
             self.tree.stack_add(node)
             begin = time.time_ns() / 1_000_000
-            func(*args, **kwargs)
+            ret = func(*args, **kwargs)
             end = time.time_ns() / 1_000_000
-            node.add_time(end-begin)
+            node.add_time(end - begin)
             if func.__name__ not in self.tree.nodes.keys():
                 self.tree.add_node(node)
             self.tree.stack_remove()
+            return ret
+
         return wrapper
+
+
+TIMING = Timing()
